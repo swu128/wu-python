@@ -1,3 +1,7 @@
 import random
 
-print(random.randint(1, 10))
+numPeople = int(input("How many people "))
+
+result = random.randint(1, numPeople)
+
+print("RANDOMIZER LANDED ON", result)
